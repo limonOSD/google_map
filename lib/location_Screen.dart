@@ -96,7 +96,7 @@ class LocationScreenState extends State<LocationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Map with Location Updates'),
+        title: const Text('Google map'),
       ),
       body: GoogleMap(
         initialCameraPosition: const CameraPosition(
